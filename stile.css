@@ -8,18 +8,31 @@
 }
 
 body {
-    display: grid;
-    place-content: center;
-    height: 100vh;
-    width: 100vw;
-	overflow: hidden;
-	background: #dfdace;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    background: #dfdace;
+    overflow: auto;
+  }
+  
 
-.flipbook {
-    width: 1000px;
-    height: 600px;
-}
+  @media (max-width: 768px) {
+    .flipbook {
+      width: 90vw;
+      height: 60vh;
+      transform: scale(0.95);
+      transform-origin: center;
+    }
+  
+    .flipbook .page {
+      font-size: 11px;
+      padding: 10px;
+    }
+  }
+  
+
 
 .flipbook .hard {
     background: #a7a4a4 !important;
