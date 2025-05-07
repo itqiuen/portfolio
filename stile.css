@@ -13,7 +13,7 @@ body {
     align-items: center;
     padding: 20px;
     min-height: 100vh;
-    background: #dfdace;
+    background: #b6b6b60e;
     overflow: auto;
   }
   
@@ -22,12 +22,11 @@ body {
 .flipbook {
     width: 570px;
     height: 300px;
-
 }
 
 .flipbook .hard {
-    background: #a7a4a4 !important;
-    color: #fff;
+    background: #d4d4d4 !important;
+    color: #000000;
     font-weight: bold;
     border: none; 
 }
@@ -47,7 +46,7 @@ body {
 	align-items: center;
     text-align: center;
     gap: 10px;
-    font-size: 13px;
+    font-size: 7px;
     border: 1px solid rgba(0, 0, 0, 0.11);
     
 }
@@ -59,6 +58,6 @@ body {
 }
 
 .flipbook .page small{
-	font-size: 14px;
+	font-size: 11px;
     margin-bottom: 10px;
 }
